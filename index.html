@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeevan | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #0288d1;   /* Ocean Blue */
+      --background-color: #e0f7fa; /* Light Blue Background */
+      --text-color: #01579b;
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: var(--background-color);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      padding: 20px;
+      text-align: center;
+      color: var(--white);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background-color: var(--white);
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 20px auto;
+      border: 5px solid var(--primary-color);
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    h2 {
+      color: var(--primary-color);
+      margin-top: 30px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .contact {
+      margin-top: 40px;
+    }
+
+    .email {
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Jeevan</h1>
+    <p>Computer Science Student | Aspiring Data Scientist</p>
+  </header>
+
+  <div class="container">
+    <img src="Je_Photo (1).png" alt="Jeevan Photo" class="profile-img">
+
+    <section>
+      <h2>📚 About Me</h2>
+      <p>I am a passionate computer science student, aiming to become a skilled data scientist. I love working on real-world projects and continuously learning new technologies.</p>
+    </section>
+
+    <section>
+      <h2>📄 Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>CSS</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>✉️ Contact</h2>
+      <p>Email: <span class="email">jeevanbgp@123gmail.com</span></p>
+    </section>
+  </div>
+</body>
+
+</html>
